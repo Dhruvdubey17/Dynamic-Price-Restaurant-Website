@@ -23,13 +23,16 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Starters</a>
+          <a class="nav-link" href="#starters">Starters</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Main Course</a>
+          <a class="nav-link" href="#main-course">Main Course</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Drinks</a>
+          <a class="nav-link" href="#drinks">Drinks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#dessert">Dessert</a>
         </li>
       </ul>
     </div>
@@ -39,7 +42,6 @@
     <section class='hero-header-text'>
       <h1>FOODLab</h1>
       <h2>Ghar jaisa khana, bahr aakr khana.</h2>
-      <button>Menu</button>
     </section>
   </header>
   <div class="top-stocks">
@@ -92,8 +94,9 @@
           <img src="https://source.unsplash.com/oUIPGCBx2OI/1600x900" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">SAMOSE</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="starter-p"><span class="border-1">100 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -102,8 +105,9 @@
           <img src="https://source.unsplash.com/RBm0rB6DQww/1600x900" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">KACHODI</h5>
-            <p class="card-text">This is a short card.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="starter-p"><span class="border-1">500 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -112,8 +116,9 @@
           <img src="https://source.unsplash.com/M-yrBvxj4lM/1600x900"  class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">CHEF's SPECIAL</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="starter-p"><span class="border-1">500 </span>&ensp;<span class="border-1">Italian </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -122,8 +127,9 @@
           <img src="https://source.unsplash.com/LOUhsrJbs0w/1600x900"  class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">MEAT BALL</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="starter-p"><span class="border-1">200 </span>&ensp;<span class="border-1">Mughal </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -132,41 +138,45 @@
       <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card h-100" class="zoom">
-          <img src="https://source.unsplash.com/oUIPGCBx2OI/1600x900" class="card-img-top" alt="...">
+          <img src="https://source.unsplash.com/mVwQrsnnbHg/1600x900" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">SAMOSE</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">NOODLES</h5>
+            <p class="starter-p"><span class="border-1">280 </span>&ensp;<span class="border-1">Chinese </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="https://source.unsplash.com/RBm0rB6DQww/1600x900" class="card-img-top" alt="...">
+          <img src="https://source.unsplash.com/d5PbKQJ0Lu8/1600x900" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">KACHODI</h5>
-            <p class="card-text">This is a short card.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">FRIES</h5>
+            <p class="starter-p"><span class="border-1">230 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 1 </span></p>
+            <button type="button" onclick="starter_info1()" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="https://source.unsplash.com/M-yrBvxj4lM/1600x900"  class="card-img-top" alt="...">
+          <img src="https://source.unsplash.com/kbe-l2rTbb4/1600x900"  class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">CHEF's SPECIAL</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">SPRING ROLL</h5>
+            <p class="starter-p"><span class="border-1">500 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 2 </span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="https://source.unsplash.com/LOUhsrJbs0w/1600x900"  class="card-img-top" alt="...">
+          <img src="https://source.unsplash.com/pMdwJTeCboc/1600x900"  class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">MEAT BALL</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">BUN</h5>
+            <p class="starter-p"><span class="border-1">20 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 1 </span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -175,12 +185,300 @@
     </div>
   </div>
   <div class="main-course" id="main-course">
+    <h1>MAIN COURSE</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100" class="zoom">
+          <img src="https://source.unsplash.com/eEWlcfydzQ4/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CHICKEN Gravy</h5>
+            <p class="starter-p"><span class="border-1">1210 </span>&ensp;<span class="border-1">Mughlai </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/POFG828-GQc/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">KABAB</h5>
+            <p class="starter-p"><span class="border-1">580 </span>&ensp;<span class="border-1">Mughlai </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/1fAjknDSumY/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CHILLI PANEER Gravy</h5>
+            <p class="starter-p"><span class="border-1">640 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/PqsImnjuElM/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PANEER CHAWAL</h5>
+            <p class="starter-p"><span class="border-1">800 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="second-row">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100" class="zoom">
+          <img src="https://source.unsplash.com/sqcH2q7lkvo/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MALAI KOFTA</h5>
+            <p class="starter-p"><span class="border-1">530 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/_y6A9bhILkM/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TADKA DAL</h5>
+            <p class="starter-p"><span class="border-1">540 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" onclick="starter_info1()" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/YX8L3EFiQmk/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">POORI</h5>
+            <p class="starter-p"><span class="border-1">20&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/4GDW-Rt4BVQ/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ROTI</h5>
+            <p class="starter-p"><span class="border-1">20 </span>&ensp;<span class="border-1"> Serves 1 </span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
 
   </div>
   <div class="dessert" id="dessert">
+    <h1>DESSERT</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100" class="zoom">
+          <img src="https://source.unsplash.com/idTwDKt2j2o/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ICE-CREAM SUNDAE</h5>
+            <p class="starter-p"><span class="border-1">100 </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/vT5xrj3z1OE/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CREAM ROLL</h5>
+            <p class="starter-p"><span class="border-1">200 </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/q54Oxq44MZs/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DONUT</h5>
+            <p class="starter-p"><span class="border-1">150 </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/cLpdEA23Z44/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DEATH BY CHOCOLATE</h5>
+            <p class="starter-p"><span class="border-1">200 </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="second-row">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100" class="zoom">
+          <img src="https://source.unsplash.com/JBIK4QZOFfc/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CHOCOLICIOUS</h5>
+            <p class="starter-p"><span class="border-1">280 </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/FWaV69D5b8k/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CUSTARD</h5>
+            <p class="starter-p"><span class="border-1">230 </span>&ensp;<span class="border-1">Indian </span>&ensp;<span class="border-1"> Serves 1 </span></p>
+            <button type="button" onclick="starter_info1()" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/jABXuTS1azc/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WAFFLE</h5>
+            <p class="starter-p"><span class="border-1">120 </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/VnM6_liIRJ0/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CUP CAKE</h5>
+            <p class="starter-p"><span class="border-1">50 </span>&ensp;<span class="border-1"> Serves 1 </span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
 
   </div>
   <div class="drinks" id="drinks">
+    <h1>DRINKS</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100" class="zoom">
+          <img src="https://source.unsplash.com/aF1NPSnDQLw/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">RED WINE</h5>
+            <p class="starter-p"><span class="border-1">1000 </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/PLbmUz6Bcv0/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WHITE WINE</h5>
+            <p class="starter-p"><span class="border-1">1200 </span>&ensp;<span class="border-1"> Serves 2</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/1MqDCpA-2hU/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BEER</h5>
+            <p class="starter-p"><span class="border-1">300 </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/4LgA_RDwsTg/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BEIRAO D'HONRA</h5>
+            <p class="starter-p"><span class="border-1">5800 </span>&ensp;<span class="border-1"> Serves 8</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="second-row">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100" class="zoom">
+          <img src="https://source.unsplash.com/z8PEoNIlGlg/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SOFT DRINK CAN</h5>
+            <p class="starter-p"><span class="border-1">MRP </span>&ensp;<span class="border-1"> Serves 1</span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/inJKK5P-6sE/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BUTTERSCOTCH SHAKE</h5>
+            <p class="starter-p"><span class="border-1">230 </span>&ensp;<span class="border-1"> Serves 1 </span></p>
+            <button type="button" onclick="starter_info1()" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/wBIeri0fLuw/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">STRAWBERRY SHAKE</h5>
+            <p class="starter-p"><span class="border-1">180 </span>&ensp;<span class="border-1"> Serves 1 </span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/h6Uh8YECcqg/1600x900"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BAD BLUEBERRY</h5>
+            <p class="starter-p"><span class="border-1">230</span>&ensp;<span class="border-1"> Serves 1 </span></p>
+            <button type="button" class="btn btn-color">Know More</button>
+            <button type="button" class="btn btn-outline-color">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
 
   </div>
   </div>
